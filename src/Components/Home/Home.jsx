@@ -84,7 +84,7 @@ const Home = ({ scrollRef }) => {
 					</h1>
 					<div className={styles.btn}>
 						<a
-							href='https://drive.google.com/file/d/1N7E-6bEbQsNkdbCgDCHU2c0opnmoMMEm/view?usp=sharing' // Resume
+							href='https://docs.google.com/document/d/1VUC3Yz0B6NiqJz4xIp-JLO1hyryY2RmuX3qmKRxcmXw/edit?usp=sharing' // Resume
 							target='blank'
 						>
 							<Button
@@ -163,14 +163,14 @@ const Home = ({ scrollRef }) => {
 						<Card key={index} {...item} />
 					))}
 				</div>
-				{/* <Button
+				<Button
 					text={
 						projects.length == 3
 							? 'Show More'
 							: 'Show Less'
 					}
 					handleButton={handleShowMoreBtn}
-				/> */}
+				/>
 			</div>
                  <div
 				style={{
